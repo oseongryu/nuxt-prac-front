@@ -1,6 +1,5 @@
 <template>
   <div>
-    <top-menu></top-menu>
     <h1>{{ pageName }}</h1>
   </div>
 </template>
@@ -8,14 +7,11 @@
 <script lang="ts">
 import { Component, Ref, Prop, PropSync, Emit, Watch, Model, Inject, InjectReactive, Provide, ProvideReactive, Vue } from 'vue-property-decorator'
 import PracAppComponent from '@/components/prac-app-component'
-import NuxtLogo from '~/components/NuxtLogo.vue'
-import topMenu from '~/components/common/top-menu.vue'
-import TopMenu from '~/components/common/top-menu.vue'
 
 @Component({
-  components: { TopMenu }
+  components: {}
 })
 export default class extends PracAppComponent {
-  pageName: string = 'index'
+  pageName: string = 'common'
 }
 </script>
