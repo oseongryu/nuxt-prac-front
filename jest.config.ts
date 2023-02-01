@@ -1,7 +1,14 @@
+const { defaults } = require('jest-config')
+
 module.exports = {
-  moduleFileExtensions: ['ts'],
-  testRegex: '(test|spec)\\.(jsx?|tsx?)$',
   transform: {
-    '^.+\\tsx?$': 'ts-jest',
+    '^.+\\.ts$': 'ts-jest',
+  },
+  testRegex: '\\.test\\.ts$',
+  moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'js'],
+  globals: {
+    'ts-jest': {
+      diagnostics: true,
+    },
   },
 }
