@@ -1,14 +1,18 @@
 <template>
   <div>
-    <h1>Hello world!</h1>
-    <Tutorial />
+    <h1>{{ name }}</h1>
+    <!-- <Tutorial /> -->
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Component, Ref, Prop, PropSync, Emit, Watch, Model, Inject, InjectReactive, Provide, ProvideReactive, Vue } from 'vue-property-decorator'
+import PracAppComponent from '@/components/prac-app-component'
 
-export default Vue.extend({
-  name: 'IndexPage',
+@Component({
+  components: {}
 })
+export default class extends PracAppComponent {
+  name: string = 'nuxt-ts-decorator'
+}
 </script>
