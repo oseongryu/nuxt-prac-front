@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link to="/common">link</nuxt-link>
+    <nuxt-link to="/common">common</nuxt-link>
     <nuxt-link to="/common">link</nuxt-link>
     <nuxt-link to="/common">link</nuxt-link>
   </div>

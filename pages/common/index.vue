@@ -9,6 +9,7 @@ import { Component, Ref, Prop, PropSync, Emit, Watch, Model, Inject, InjectReact
 import PracAppComponent from '@/components/prac-app-component'
 
 @Component({
+  layout: 'empty',
   components: {}
 })
 export default class extends PracAppComponent {
