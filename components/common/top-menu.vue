@@ -1,8 +1,7 @@
 <template>
   <div>
-    <nuxt-link to="/common">common</nuxt-link>
-    <nuxt-link to="/common">link</nuxt-link>
-    <nuxt-link to="/common">link</nuxt-link>
+    <nuxt-link to="/common/index">common</nuxt-link>
+    <nuxt-link to="/common/devextreme-chart-index">chart</nuxt-link>
   </div>
 </template>
 
