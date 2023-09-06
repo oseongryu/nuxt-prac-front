@@ -15,5 +15,9 @@ import NuxtLogo from '~/components/NuxtLogo.vue'
 })
 export default class extends PracAppComponent {
   pageName: string = 'index'
+
+  mounted() {
+    // this.$router.push({ path: '/automation/automation-index', append: true })
+  }
 }
 </script>
