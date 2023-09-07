@@ -1,4 +1,23 @@
 <template>
+  <!-- <header class="main-header">
+    <nav class="navbar navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand">
+            Automation
+          </a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="common/automation-index">Automation</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header> -->
   <div>
     <nuxt-link to="/common/index">common</nuxt-link>
     <nuxt-link to="/common/devextreme-chart-index">chart</nuxt-link>

@@ -1,17 +1,19 @@
 <template>
-  <div style="width: 50%; height: 50%;">
+  <dx-scroll-view class="mgt-20">
+
     <top-menu />
     <nuxt />
-  </div>
+  </dx-scroll-view>
 </template>
 
 <script lang="ts">
 import { Component, Ref, Prop, PropSync, Emit, Watch, Model, Inject, InjectReactive, Provide, ProvideReactive, Vue } from 'vue-property-decorator'
 import PracAppComponent from '@/components/prac-app-component'
 import TopMenu from '@/components/common/top-menu.vue'
+import { DxScrollView } from 'devextreme-vue/scroll-view'
 
 @Component({
-  components: { TopMenu },
+  components: { TopMenu, DxScrollView },
 })
 export default class extends PracAppComponent {
   mounted() { }
