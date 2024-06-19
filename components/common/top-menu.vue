@@ -12,14 +12,14 @@
         </div>
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="common/automation-index">Automation</a></li>
+            <li><a href="common/automation-index">Automation</a></li> 
           </ul>
         </div>
       </div>
     </nav>
   </header> -->
   <div>
-    <nuxt-link to="/common/index">common</nuxt-link>
+    <nuxt-link to="/common/devextreme-button-index">common</nuxt-link>
     <nuxt-link to="/common/devextreme-chart-index">chart</nuxt-link>
     <nuxt-link to="/common/automation-index">web automation</nuxt-link>
   </div>

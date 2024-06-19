@@ -74,7 +74,7 @@ import { spawn, exec } from 'child_process'
 import DxButton from 'devextreme-vue/button';
 
 @Component({
-  layout: 'empty',
+  layout: 'default',
   components: {
     DxChart,
     DxSeries,

@@ -37,7 +37,7 @@ import PracAppComponent from '@/components/prac-app-component'
 import { DxChart, DxSeries, DxCommonSeriesSettings, DxLegend, DxSize, DxLabel, DxFormat, DxValueAxis, DxTooltip } from 'devextreme-vue/chart'
 
 @Component({
-  layout: 'empty',
+  layout: 'default',
   components: {
     DxChart,
     DxSeries,
