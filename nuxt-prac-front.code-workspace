@@ -37,8 +37,8 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[vue]": {
-      "editor.defaultFormatter": "Vue.volar"
-      // "editor.defaultFormatter": "octref.vetur"
+      // "editor.defaultFormatter": "Vue.volar"
+      "editor.defaultFormatter": "octref.vetur"
     },
     "svn.ignoreMissingSvnWarning": true,
     // "editor.formatOnSave": false,

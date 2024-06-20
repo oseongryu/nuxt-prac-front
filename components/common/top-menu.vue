@@ -1,5 +1,5 @@
 <template>
-  <!-- <header class="main-header">
+  <header class="main-header">
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -12,17 +12,18 @@
         </div>
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="common/automation-index">Automation</a></li> 
+            <li><a href="/guide/guide-index">Guide</a></li>
           </ul>
         </div>
       </div>
     </nav>
-  </header> -->
-  <div>
+  </header>
+  <!-- <div>
+    <nuxt-link to="/guide/guide-index">prop</nuxt-link>
     <nuxt-link to="/common/devextreme-button-index">common</nuxt-link>
     <nuxt-link to="/common/devextreme-chart-index">chart</nuxt-link>
-    <nuxt-link to="/common/automation-index">web automation</nuxt-link>
-  </div>
+    <nuxt-link to="/common/automation-index">automation</nuxt-link>
+  </div> -->
 </template>
 
 <script lang="ts">
