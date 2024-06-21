@@ -4,12 +4,16 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: [
-    '@nuxtjs/eslint-config-typescript',
-    'plugin:nuxt/recommended',
-    'prettier',
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "prettier",
+    "prettier/vue",
+    "plugin:prettier/recommended",
+    "plugin:nuxt/recommended"
   ],
-  plugins: [],
-  // add your custom rules here
-  rules: {},
+  "plugins": ["prettier"],
+  rules: {
+    "nuxt/no-cjs-in-config": "off",
+    "no-unused-vars": "off"
+  },
 }

@@ -19,9 +19,9 @@ import PracAppComponent from '@/components/prac-app-component'
   components: {},
 })
 export default class extends PracAppComponent {
-  @Prop({ default: '' }) readonly prop1: string
+  @Prop({ default: '' }) readonly prop1: any
 
-  @PropSync('propSync1') proSync1Data: string
+  @PropSync('propSync1', { default: '' }) proSync1Data: any
 
   refValue1: string = ''
 

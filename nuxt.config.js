@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-prac',
+    title: 'nuxt-prac-front',
     htmlAttrs: {
       lang: 'en',
     },
