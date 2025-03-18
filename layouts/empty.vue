@@ -1,5 +1,5 @@
 <template>
-  <div style="width: 50%; height: 50%;">
+  <div style="width: 50%; height: 50%">
     <nuxt />
   </div>
 </template>
@@ -12,8 +12,8 @@ import PracAppComponent from '@/components/prac-app-component'
   components: {},
 })
 export default class extends PracAppComponent {
-  mounted() { }
-  beforeCreate() { }
-  beforeMount() { }
+  mounted() {}
+  beforeCreate() {}
+  beforeMount() {}
 }
 </script>
